@@ -1,0 +1,28 @@
+:root {
+    /* Cores primárias */
+    --p300: #FFF8B0;
+    --p500: #D4AA00;
+    --p700: #987400;
+
+    /* Cores secundárias */
+    --s300: #D6D6D6;
+    --s500: #B0B0B0;
+    --s700: #7A7A7A;
+
+    /* Cores texto */
+    --low-medium: #333333;
+    --high-pure: #FFFFFF;
+    --snow-white: #F9F9F9;
+    --ghost-white: #F0F0F0;
+}
+
+:root {
+    --fonte-h1: 6.4rem;
+    --fonte-h2: 5.6rem;
+    --fonte-h3: 3.2rem;
+    --fonte-p: 1.6rem;
+}
+
+:root {
+    --margin-mobile: 16px;
+}

@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    background-image: url('/src/image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 240px;
+    max-width: 1920px;
+    min-height: 700px;
+    align-items: center;
+}
+
+.hero .descricao  {
+    color: var(--high-pure);
+    justify-self: center;
+}
+
+.hero .descricao h1 {
+    font-size: var(--fonte-h1);
+    font-weight: 700;
+}
+
+.hero .descricao h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,52 @@
+.servicos {
+    margin: 80px 0;
+}
+
+.servicos .container-servico {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /* margin: 0 auto; */
+    grid-gap: 24px;
+    text-align: center;
+}
+
+.servicos .container-servico .informacoes {
+    background-color: var(--ghost-white);
+    padding: 64px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(15, 15, 15, 25%);
+}
+
+.servicos .container-servico .intro {
+    background-color: var(--p300);
+}
+
+.servicos .container-servico .informacoes h3,
+.servicos .container-servico .informacoes .logo i {
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.servicos .container-servico .informacoes h3 {
+    font-size: var(--fonte-h3);
+    font-weight: 500;
+    color: var(--cor-branca);
+}
+
+.servicos .container-servico .informacoes h3,
+.servicos .container-servico .informacoes h4 {
+    margin-bottom: 20px;
+
+}
+
+.servicos .container-servico .informacoes p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.servicos .container-servicos .informacoes i {
+    font-size: 8rem;
+ }

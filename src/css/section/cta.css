@@ -1,0 +1,22 @@
+.cta {
+    margin: 80px auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("/src/image/banner-cta.jpg");
+    height: 305px;
+    border-radius: 12px;
+}
+
+.banner .cta-descricao h3 {
+    font-size: var(--fonte-h3);
+    font-weight: 500;
+}
+
+.banner .cta-descricao p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
