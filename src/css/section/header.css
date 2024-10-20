@@ -39,7 +39,7 @@
 .header .hamburguer {
     position: relative;
     display: block;
-    background-color: var(--cor-branca);
+    background-color: #0A0708;
     border-radius: 2px;
     width: 30px;
     height: 3px;
@@ -50,7 +50,7 @@
 
 .header .hamburguer:before, 
 .header .hamburguer:after {
-    background-color: var(--cor-branca);
+    background-color: #0A0708;
     content: '';
     display: block;
     width: 100%;

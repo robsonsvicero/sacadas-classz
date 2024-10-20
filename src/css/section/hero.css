@@ -1,26 +1,38 @@
-.hero {
+.inicio {
+    width: 100%;
+}
+
+.inicio .hero {
+    position: relative;
     display: flex;
-    background-image: url("../image/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0 240px;
-    max-width: 1920px;
-    min-height: 700px;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hero .descricao  {
-    color: var(--high-pure);
+.inicio .hero .descricao {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
+    min-width: 100vw;
+    position: absolute;
+    padding-left: 240px;
 }
 
-.hero .descricao h1 {
+.inicio .hero .descricao h1,
+.inicio .hero .descricao h3 {
+    color: var(--high-pure);
+}
+
+.inicio .hero .descricao h1 {
     font-size: var(--fonte-h1);
     font-weight: 700;
 }
 
-.hero .descricao h3 {
-    font-size: 2rem;
+.inicio .hero .descricao h3 {
+    font-size: var(--fonte-h3);
     font-weight: 500;
-    margin-bottom: 80px;
+}
+
+.inicio .hero .banner-hero .img-banner {
+    width: 100vw;
 }

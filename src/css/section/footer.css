@@ -1,51 +1,52 @@
 .menu-footer {
     background-color: var(--p500);
-    max-width: 1920px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
-.itens-footer {
+.menu-footer .itens-footer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
-.itens-footer .logo {
+.menu-footer .itens-footer .logo {
     margin-top: -14px;
     max-height: 60px;
 }
 
-.itens-footer .contato {
+.menu-footer .itens-footer .contato {
     display: flex;
+    flex-direction: row;
     gap: 80px;
 }
 
-.itens-footer .contato .atendimento ul li{
+.menu-footer .itens-footer .contato .atendimento ul li{
     margin-bottom: 18px;
 }
 
-.itens-footer .contato .atendimento h3,
-.itens-footer .contato .redes-sociais h3 {
+.menu-footer .itens-footer .contato .atendimento h3,
+.menu-footer .itens-footer .contato .redes-sociais h3 {
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-.itens-footer .contato .atendimento a {
+.menu-footer .itens-footer .contato .atendimento a {
     font-size: var(--fonte-p);
     font-weight: 500;
 }
 
-.itens-footer .contato .redes-sociais ul {
+.menu-footer .itens-footer .contato .redes-sociais ul {
     display: flex;
     justify-content: space-around;
 }
-.itens-footer .contato .redes-sociais a i {
+.menu-footer .itens-footer .contato .redes-sociais a i {
     font-size: 3.2rem;
     transition: 0.5s;
 }
 
-.itens-footer .contato .redes-sociais a i:hover {
+.menu-footer .itens-footer .contato .redes-sociais a i:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
