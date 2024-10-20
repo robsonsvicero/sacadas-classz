@@ -128,6 +128,10 @@
         max-height: 40px;
     }
 
+    .section-title {
+        font-size: 4.2rem;
+    }
+
     .inicio .hero .banner-hero .img-banner {
         min-height: 580px;
     }
