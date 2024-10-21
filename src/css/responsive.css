@@ -93,6 +93,14 @@
         margin: 0;
     }
 
+      .cta .banner .cta-conteudo .cta-descricao {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 60%;
+    }
+
     .cta .banner .cta-conteudo .img-descricao img {
         width: 100vw;
         height: 304px;
