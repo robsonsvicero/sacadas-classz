@@ -2,7 +2,7 @@
     .container, 
     .cta .banner .cta-conteudo .cta-descricao {
         max-width: 1140px;
-        margin: auto;
+        margin: 0 150px;
     }
 
     .section {
@@ -14,10 +14,10 @@
     }
   }
 
-  @media(max-width: 1024px) {
+  @media(max-width: 1380px) {
     .container,
     .cta .banner .cta-conteudo .cta-descricao {
-        max-width: 860px;
+        max-width: 1080px;
         margin: auto;
     }
 
@@ -42,7 +42,7 @@
     .container,
     .cta .banner .cta-conteudo .cta-descricao {
         max-width: 688px;
-        margin: auto;
+        margin: 0 40px;
     }
     
     .header .menu {
@@ -76,9 +76,12 @@
         padding: 20px;
     }
 
+    .inicio .hero .banner-hero .img-banner {
+        height: 460px;
+    }
 
     .inicio .hero .descricao h3 {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .cta .banner {
@@ -88,6 +91,19 @@
 
     .cta .banner .cta-conteudo .img-descricao img {
         height: 304px;
+    }
+
+    .sobre .informacoes-sobre {
+        flex-direction: column;
+    }
+
+    .sobre .informacoes-sobre .descricao-sobre {
+        width: 100%;
+    }
+
+    .servicos .container-servico,
+    .projetos .container-projetos {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 520px));
     }
 
     .menu-footer .itens-footer {
@@ -120,8 +136,8 @@
   @media(max-width: 425px) {
     .container,
     .cta .banner .cta-conteudo .cta-descricao {
-        max-width: 393px;
-        margin: auto;
+        max-width: 593px;
+        margin: 0 16px;
     }
 
     .header .logo {
@@ -136,12 +152,20 @@
         font-size: 4.2rem;
     }
 
+    .button {
+        width: 100%;
+    }
+
     .inicio .hero .banner-hero .img-banner {
         min-height: 580px;
     }
 
     .sobre .imagem-sobre {
         max-width: 425px;
+    }
+
+    .sobre .informacoes-sobre {
+        grid-template-columns: repeat(1, minmax(593px, 1fr));
     }
 
     .cta .banner .cta-conteudo .cta-descricao {
@@ -158,10 +182,6 @@
     .cta .banner .cta-conteudo .cta-descricao .texto-descricao h3 {
         font-size: 2.8rem;
         margin-bottom: 14px;
-    }
-
-    .button {
-        width: 100%;
     }
 
     .menu-footer {

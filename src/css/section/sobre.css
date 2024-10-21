@@ -1,12 +1,14 @@
 .sobre .informacoes-sobre {
-    display: grid;
+    display: flex;
+    gap: 2.4rem;
+    /* display: grid;
     grid-gap: 2.4em;
-    grid-template-columns: repeat(auto-fill, minmax(393px, 1fr));
+    grid-template-columns: repeat(2, minmax(550px, 1fr)); */
 }
 
 .sobre .informacoes-sobre .descricao-sobre {
-    padding: 0 25px;
-    align-self: center;
+    width: 50%;
+    padding: 12px 25px;
 }
 
 .sobre .informacoes-sobre .descricao-sobre p {
@@ -18,7 +20,6 @@
 
 .sobre .imagem-sobre {
     border-radius: 12px;
-    box-shadow: 2px 4px 10px rgba(15, 15, 15, 45%);
 }
 
 .sobre .imagem-sobre .img-box {
@@ -27,5 +28,7 @@
 
 .sobre .imagem-sobre .img-box img {
     width: 100%;
+    height: 100%;
     border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(15, 15, 15, 45%);
 }

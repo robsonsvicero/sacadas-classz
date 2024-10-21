@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(393px, 1fr));
     margin: 0 auto;
     grid-gap: 20px;
+    justify-content: center;
 }
 
 .projetos .container-projetos .projeto {
