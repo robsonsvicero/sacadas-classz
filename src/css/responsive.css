@@ -90,6 +90,7 @@
     }
 
     .cta .banner .cta-conteudo .img-descricao img {
+        width: 100vw;
         height: 304px;
     }
 
@@ -136,7 +137,7 @@
   @media(max-width: 425px) {
     .container,
     .cta .banner .cta-conteudo .cta-descricao {
-        max-width: 593px;
+        max-width: 393px;
         margin: 0 16px;
     }
 
@@ -165,7 +166,7 @@
     }
 
     .sobre .informacoes-sobre {
-        grid-template-columns: repeat(1, minmax(593px, 1fr));
+        grid-template-columns: repeat(1, minmax(393px, 1fr));
     }
 
     .cta .banner .cta-conteudo .cta-descricao {
