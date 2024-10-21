@@ -1,6 +1,25 @@
 .header {
-    background-color: #0A0708;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    transition: 0.5s;
+}
+
+header.rolagem {
+    background-color: var(--low-medium);
+    backdrop-filter: blur(8px);
     padding: 20px 0;
+}
+
+header.rolagem nav li a {
+    color: var(--p500);
+}
+
+header.rolagem .logo {
+    filter: invert(30%) sepia(200%) saturate(1000%) hue-rotate(0deg) brightness(96%) contrast(101%);
 }
 
 .header .logo {
@@ -14,13 +33,20 @@
 
 .header nav li a {
     color: var(--high-pure);
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 1.8rem;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 10px 20px;
-    transition: 0.5s;
     user-select: none;
+    margin-right: 4px;
+    transition: 0.5s;
+}
+
+.header nav li a:hover {
+    border: 1px solid var(--p500);
+    border-radius: 12px;
+    transition: 0.5s;
 }
 
 .header .menu {

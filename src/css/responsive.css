@@ -12,6 +12,11 @@
     .inicio .hero .descricao {
         padding-left: 10%;
     }
+
+    .inicio:after {
+        bottom: 40%;
+    }
+
   }
 
   @media(max-width: 1380px) {
@@ -81,11 +86,15 @@
     }
 
     .inicio .hero .banner-hero .img-banner {
-        height: 460px;
+        height: 560px;
     }
 
     .inicio .hero .descricao h3 {
         padding-bottom: 40px;
+    }
+
+    .inicio:after {
+        display: none;
     }
 
     .cta .banner {
