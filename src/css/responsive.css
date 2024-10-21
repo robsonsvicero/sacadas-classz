@@ -58,22 +58,26 @@
 
     .header nav {
         position: absolute;
+        width: 95%;
         top: 30px;
-        right: 20px;
+        right: 10px;
         z-index: 1;
     }
 
     .header nav ul {
         display: none;
         background-color: var(--high-pure);
-        padding: 20px;
     }
 
     .header nav li a {
         display: block;
         color: var(--low-medium);
-        text-align: center;
         padding: 20px;
+    }
+
+    .header nav li a:hover {
+        background-color: var(--p500);
+        color: var(--high-pure);
     }
 
     .inicio .hero .banner-hero .img-banner {
