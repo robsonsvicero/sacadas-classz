@@ -48,6 +48,10 @@
     100% {-webkit-transform: translateY(0.7em); opacity: 0.9;}
 }
 
+.inicio .hero .banner-hero {
+    z-index: -1;
+}
+
 .inicio .hero .banner-hero .img-banner {
     width: 100%;
 }
