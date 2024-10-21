@@ -34,7 +34,7 @@
     }
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: 820px) {
     .section {
         padding: 4rem 0 4rem;
     }
@@ -134,10 +134,10 @@
 
   }
 
-  @media(max-width: 425px) {
+  @media(max-width: 480px) {
     .container,
     .cta .banner .cta-conteudo .cta-descricao {
-        max-width: 393px;
+        max-width: 448px;
         margin: 0 16px;
     }
 
@@ -158,15 +158,15 @@
     }
 
     .inicio .hero .banner-hero .img-banner {
-        min-height: 580px;
+        min-height: 448px;
     }
 
     .sobre .imagem-sobre {
-        max-width: 425px;
+        max-width: 448px;
     }
 
     .sobre .informacoes-sobre {
-        grid-template-columns: repeat(1, minmax(393px, 1fr));
+        grid-template-columns: repeat(1, minmax(448px, 1fr));
     }
 
     .cta .banner .cta-conteudo .cta-descricao {
