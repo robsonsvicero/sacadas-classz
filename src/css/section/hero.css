@@ -33,6 +33,20 @@
     font-weight: 500;
 }
 
+.home:after {
+    content: url('/src/imagens/seta-branca.png');
+    position: absolute;
+    height: 35px;
+    right: 50%;
+    bottom: 80px;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+
+@keyframes downarrow {
+    0% {-webkit-transform: translateY(0); opacity: 0.4;}
+    100% {-webkit-transform: translateY(0.7em); opacity: 0.9;}
+}
+
 .inicio .hero .banner-hero .img-banner {
     width: 100%;
 }
