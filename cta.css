@@ -1,0 +1,31 @@
+.cta {
+    position: relative;
+}
+
+.cta .banner .cta-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .banner .cta-conteudo .cta-descricao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 1440px;
+}
+
+.cta .banner .cta-conteudo .cta-descricao .texto-descricao h3 {
+    font-size: var(--fonte-h3);
+    font-weight: 500;
+}
+
+.cta .banner .cta-conteudo .cta-descricao .texto-descricao p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.cta .banner .cta-conteudo .img-descricao img{
+    border-radius: 12px;
+}

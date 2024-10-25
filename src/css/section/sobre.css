@@ -1,9 +1,6 @@
 .sobre .informacoes-sobre {
     display: flex;
     gap: 2.4rem;
-    /* display: grid;
-    grid-gap: 2.4em;
-    grid-template-columns: repeat(2, minmax(550px, 1fr)); */
 }
 
 .sobre .informacoes-sobre .descricao-sobre {
